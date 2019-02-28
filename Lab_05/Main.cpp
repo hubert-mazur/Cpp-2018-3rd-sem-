@@ -39,7 +39,7 @@ int main ()
   computerScienceList.PrintInfo();
 
   computerScienceList.AddStudent(new Student("Rick", "Sanchez"));
-
+ 
   Student* archer = new Student ("Sterling", "Archer");
   archer->Print();
   computerScienceList.AddStudent(archer);
